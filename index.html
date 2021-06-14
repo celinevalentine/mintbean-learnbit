@@ -5,41 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mintbean Learn-a-bit Challenge 01 - Header</title>
+
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&family=Viga&display=swap" rel="stylesheet">
   </head>
  
   <body>
     <header>
       <nav>
-      <div id="nav_logo">
         <img src="./images/learnabit-logo.png" alt="logo">
-      </div>
-      
-      <div class="nav_menu">
-        <ul>
-          <li><a href="#"></a>Contact  </li>
-          <li><a href="#"></a>Team | </li>
-          <li><a href="#"></a>About |</li>
-          <li><a href="#"></a>Intro | </li>  
+    
+        <ul class="nav_links">
+          <li class="nav_item"><a class="nav_link" href="#">Intro |</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">About |</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Team |</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Contact</a></li>  
+          <li class="nav_item"><a class="nav_link button" href="#">Join</a></li>  
         </ul>
-    
-        <div class="nav_btn">
-          <button>Join</button>
-        </div>
-       
-      </div>
-    </nav>
-    </header>
-    
-    
-   <main>
-    <div class="overlay">
-      <h2 class="overlay_title">
+        <a href="#" class="nav_icon"><i class="fa fa-bars"></i></a>
+    </nav> 
+   <section class="hero">
+    <article class="card">
+      <h1 class="card_title">
         Level up bit by bit with Learn-a-bit
-      </h2>
-      <div class="overlay_paragraph">
-        <p class="overlay_paragraph">
+      </h1>
+        <p class="card_text">
         As the name says, the purpose of
         Learn-a-bit is about learning one bit
         of code at a time. In these events,
@@ -50,16 +42,11 @@
         relaxed and non-competitive, but are
         still challenging enough to push you
         to use all your resources and
-        knowledge to solve each problem
+        knowledge to solve each problem.
       </p>
-      </div>
-      
-      <div>
-
-      </div class="overlay_btn">
-         <button >Join a learn-a-ton</button>
-    </div>
-   </main>
-  
+         <a class="button" href="#">Join a learn-a-bit</a>
+     </article>
+    </section>
+  </header>
   </body>
 </html>
