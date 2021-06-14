@@ -126,8 +126,12 @@ nav .nav_icon {
   .nav_icon {
     display: block;
   }
+
+  .hero {
+    margin: 8rem 1rem;
+  }
   .card {
-    min-width: 70%;
+    min-width: 90%;
   }
   .button {
     font-size: 0.7rem;
