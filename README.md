@@ -1,3 +1,5 @@
+![learnabit-ch01-desktop](https://user-images.githubusercontent.com/52294389/122128258-498d4080-cde9-11eb-950a-68b5d2adfc7b.png)
+![learnabit-ch01-mobile](https://user-images.githubusercontent.com/52294389/122128264-4c883100-cde9-11eb-84a0-6a310afcba56.png)
 
 ## Introduction
 
